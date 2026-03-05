@@ -22,16 +22,16 @@ function showError(msg) {
 const IDLE_KEY = "1";
 
 // Personaje base (With Skin)
-const BASE_CHARACTER = "assets/models/Mutant.fbx";
+const BASE_CHARACTER = "assets/models/Ch29_nonPBR.fbx";
 
 // Animaciones (Without Skin)
 // type: "idle" | "attack" | "move" (attack = one-shot que regresa a idle)
 const ANIMS = [
-  { key: "1", name: "Body Block (Idle)", file: "assets/models/Body Block.fbx", type: "idle" },
-  { key: "2", name: "Punching",          file: "assets/models/Punching.fbx", type: "attack" },
-  { key: "3", name: "Drop Kick",         file: "assets/models/Drop Kick.fbx", type: "attack" },
-  { key: "4", name: "Double Dagger",     file: "assets/models/Double Dagger Stab.fbx", type: "attack" },
-  { key: "5", name: "Left Turn 45",      file: "assets/models/Left Turn 45.fbx", type: "move" }
+  { key: "1", name: "Body Block (Idle)", file: "assets/models/Petting Animal.fbx", type: "idle" },
+  { key: "2", name: "Punching",          file: "assets/models/Shoved Reaction With Spin.fbx", type: "attack" },
+  { key: "3", name: "Drop Kick",         file: "assets/models/Sitting Clap.fbx", type: "attack" },
+  { key: "4", name: "Double Dagger",     file: "assets/models/Sitting Laughing.fbx", type: "attack" },
+  { key: "5", name: "Left Turn 45",      file: "assets/models/Arm Stretching.fbx", type: "move" }
 ];
 
 // ======================

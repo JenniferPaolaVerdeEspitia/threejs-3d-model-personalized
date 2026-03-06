@@ -27,11 +27,11 @@ const BASE_CHARACTER = "assets/models/Ch29_nonPBR.fbx";
 // Animaciones (Without Skin)
 // type: "idle" | "attack" | "move" (attack = one-shot que regresa a idle)
 const ANIMS = [
-  { key: "1", name: "Body Block (Idle)", file: "assets/models/Petting Animal.fbx", type: "idle" },
-  { key: "2", name: "Punching",          file: "assets/models/Shoved Reaction With Spin.fbx", type: "attack" },
-  { key: "3", name: "Drop Kick",         file: "assets/models/Sitting Clap.fbx", type: "attack" },
-  { key: "4", name: "Double Dagger",     file: "assets/models/Sitting Laughing.fbx", type: "attack" },
-  { key: "5", name: "Left Turn 45",      file: "assets/models/Arm Stretching.fbx", type: "move" }
+  { key: "1", name: "Petting Animal ", file: "assets/models/Petting Animal.fbx", type: "Acariciar" },
+  { key: "2", name: "Shoved Reaction With Spin", file: "assets/models/Shoved Reaction With Spin.fbx", type: "Reacion Empujar con giro" },
+  { key: "3", name: "Sitting Clap",    file: "assets/models/Sitting Clap.fbx", type: "Aplaudir sentado" },
+  { key: "4", name: "Sitting Laughing.",     file: "assets/models/Sitting Laughing.fbx", type: "Riendo sentado" },
+  { key: "5", name: "Arm Stretching",      file: "assets/models/Arm Stretching.fbx", type: "Estiramiento de brazos" }
 ];
 
 // ======================
